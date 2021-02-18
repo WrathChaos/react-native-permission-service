@@ -139,32 +139,32 @@ should work of the example project.
 
 ### Android Future Plans
 
-- [] Accept Handover Permission Handling
-- [] Access Background Location Permission Handling
-- [] Activity Recognition Permission Handling
-- [] Add Voicemail Permission Handling
-- [] Answer Phone Calls Permission Handling
-- [] Body Sensors Permission Handling
-- [] Call Phone Permission Handling
-- [] Get Accounts Permission Handling
-- [] Process Outgoing Calls Permission Handling
-- [] Read Calendar Permission Handling
-- [] Read Call Log Permission Handling
-- [] Read Contacts Permission Handling
-- [] Read External Storage Permission Handling
-- [] Read Phone Numbers Permission Handling
-- [] Read Phone State Permission Handling
-- [] Read SMS Permission Handling
-- [] Receive MMS Permission Handling
-- [] Receive SMS Permission Handling
-- [] Receive Wap Push Permission Handling
-- [] Record Audio Permission Handling
-- [] Send SMS Permission Handling
-- [] Use Sip Permission Handling
-- [] Write Calendar Permission Handling
-- [] Write Call Log Permission Handling
-- [] Write Contacts Permission Handling
-- [] Write External Storage Permission Handling
+- [ ] Accept Handover Permission Handling
+- [ ] Access Background Location Permission Handling
+- [ ] Activity Recognition Permission Handling
+- [ ] Add Voicemail Permission Handling
+- [ ] Answer Phone Calls Permission Handling
+- [ ] Body Sensors Permission Handling
+- [ ] Call Phone Permission Handling
+- [ ] Get Accounts Permission Handling
+- [ ] Process Outgoing Calls Permission Handling
+- [ ] Read Calendar Permission Handling
+- [ ] Read Call Log Permission Handling
+- [ ] Read Contacts Permission Handling
+- [ ] Read External Storage Permission Handling
+- [ ] Read Phone Numbers Permission Handling
+- [ ] Read Phone State Permission Handling
+- [ ] Read SMS Permission Handling
+- [ ] Receive MMS Permission Handling
+- [ ] Receive SMS Permission Handling
+- [ ] Receive Wap Push Permission Handling
+- [ ] Record Audio Permission Handling
+- [ ] Send SMS Permission Handling
+- [ ] Use Sip Permission Handling
+- [ ] Write Calendar Permission Handling
+- [ ] Write Call Log Permission Handling
+- [ ] Write Contacts Permission Handling
+- [ ] Write External Storage Permission Handling
 
 # Change Log
 
