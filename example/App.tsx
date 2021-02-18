@@ -15,7 +15,7 @@ import {
   requestCameraPermission,
   requestLocationPermission,
   requestPhotoLibraryPermission,
-} from "./lib/PermissionService";
+} from "./build/dist/PermissionService";
 
 interface IProps {}
 

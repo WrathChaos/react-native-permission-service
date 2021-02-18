@@ -1,4 +1,4 @@
-import RNPermissions, {
+import {
   check,
   openSettings,
   request,
@@ -21,7 +21,7 @@ export interface IPermissionResult {
 /*                        Location Permission Functions                       */
 /* -------------------------------------------------------------------------- */
 
-export const requestLocationPermission = () => {
+export const requestLocationPermission = (): Promise<string> => {
   return isAndroid
     ? requestAndroidPermission(PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION)
     : requestIOSPermission(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
@@ -31,14 +31,14 @@ export const requestLocationPermission = () => {
 /*                        Camera Permission Functions                        */
 /* -------------------------------------------------------------------------- */
 
-export const requestCameraPermission = () => {
+export const requestCameraPermission = (): Promise<string> => {
   return isAndroid
     ? requestAndroidPermission(PERMISSIONS.ANDROID.CAMERA)
     : requestIOSPermission(PERMISSIONS.IOS.CAMERA);
 };
 
 /* -------------------------------------------------------------------------- */
-/*                       Photo Library Permission Functions                        */
+/*                       Photo Library Permission Functions                   */
 /* -------------------------------------------------------------------------- */
 
 export const requestPhotoLibraryPermission = () => {
@@ -75,7 +75,11 @@ const hasIOSPermissions = () => {
   ]).then(handleResult.bind(this));
 };
 
-const handleResult = ([locationStatus, cameraStatus, photoLibraryStatus]) => {
+const handleResult = ([
+  locationStatus,
+  cameraStatus,
+  photoLibraryStatus,
+]: any): Array<IPermissionResult> => {
   const allPermissionsResult = Array<IPermissionResult>();
   if (locationStatus === RESULTS.GRANTED)
     allPermissionsResult.push({
@@ -117,37 +121,39 @@ const handleResult = ([locationStatus, cameraStatus, photoLibraryStatus]) => {
 /*                    GENERIC Request Permission Functions                   */
 /* -------------------------------------------------------------------------- */
 
-const requestAndroidPermission = (
+const requestAndroidPermission = async (
   permission: Permission,
   isShowAlert: boolean = true,
   title?: string,
   body?: string,
   settingsButtonText?: string,
   cancelButtonText?: string,
-) => {
-  request(permission).then((result: any) => {
+): Promise<string> => {
+  return request(permission).then((result: any) => {
     if (result === RESULTS.BLOCKED) {
-      if (isShowAlert)
+      if (isShowAlert) {
         showSettingsAlert(title, body, settingsButtonText, cancelButtonText);
-      else return result;
+        return result;
+      } else return result;
     }
     return result;
   });
 };
 
-const requestIOSPermission = (
+const requestIOSPermission = async (
   permission: Permission,
   isShowAlert: boolean = true,
   title?: string,
   body?: string,
   settingsButtonText?: string,
   cancelButtonText?: string,
-) => {
-  RNPermissions.request(permission).then((result: any) => {
+): Promise<string> => {
+  return request(permission).then((result: any): string => {
     if (result === RESULTS.BLOCKED) {
-      if (isShowAlert)
+      if (isShowAlert) {
         showSettingsAlert(title, body, settingsButtonText, cancelButtonText);
-      else return result;
+        return result;
+      } else return result;
     }
     return result;
   });
