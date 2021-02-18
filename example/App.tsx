@@ -3,7 +3,6 @@ import { View, AppState, AppStateStatus, ScrollView } from "react-native";
 import { RESULTS } from "react-native-permissions";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { ScreenWidth } from "@freakycoder/react-native-helpers";
-
 /**
  * ? Local Imports
  */
@@ -116,7 +115,7 @@ export default class App extends Component<IProps, IState> {
         title="Location Permission"
         isGranted={isLocPermGranted}
         source={require("./assets/permissions/map.png")}
-        description="Location Permission"
+        description="We need this permission for the geolocation based app to function functionally"
         onPress={this.handleRequestLocPermission}
       />
     );
@@ -129,7 +128,7 @@ export default class App extends Component<IProps, IState> {
         title="Camera Permission"
         isGranted={isCameraPermGranted}
         source={require("./assets/permissions/camera.png")}
-        description="Camera Permission"
+        description="We need this permission to use the camera"
         onPress={this.handleRequestCameraPermission}
       />
     );
@@ -142,7 +141,7 @@ export default class App extends Component<IProps, IState> {
         title="Gallery Permission"
         isGranted={isPhotoLibraryPermGranted}
         source={require("./assets/permissions/seo.png")}
-        description="Gallery Permission"
+        description="We need this permission to reach and use the gallery/photos"
         onPress={this.handleRequestPhotoLibraryPermission}
       />
     );

@@ -1,14 +1,20 @@
 {
-  "name": "react-native-typescript-library-starter",
-  "version": "1.0.3",
-  "description": "Extremely easy to create a React Native Component Library with both Stateful and Functional Component Examples.",
-  "main": "./build/dist/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-typescript-library-starter.git",
+  "name": "react-native-permission-service",
+  "version": "0.1.0",
+  "description": "Easy to use permission service which is all handled by itself for both iOS and Android on React Native",
+  "main": "./build/dist/PermissionService.js",
+  "repository": "git@github.com:WrathChaos/react-native-permission-service.git",
   "author": "FreakyCoder <kurayogun@gmail.com>",
   "license": "MIT",
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-typescript-library-starter/issues",
+  "bugs": "https://github.com/WrathChaos/react-native-permission-service/issues",
   "keywords": [
+    "permission",
+    "permissions",
+    "react-native-permissions",
+    "permission-service",
+    "rn-permission-service",
+    "react-native-permission-service",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -27,8 +33,7 @@
     "postversion": "git push && git push --tags"
   },
   "peerDependencies": {
-    "react": ">= 16.x.x",
-    "react-native": ">=0.63.x"
+    "react-native-permissions": ">= 2.2.0"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
