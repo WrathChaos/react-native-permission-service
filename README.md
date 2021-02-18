@@ -1,7 +1,5 @@
 <img alt="React Native Permission Service" src="assets/logo.png" width="1050"/>
 
-[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-permission-service)
-
 [![React Native Permission Service](https://img.shields.io/badge/-Easy%20to%20use%20permission%20service%20which%20is%20all%20handled%20by%20itself%20for%20both%20iOS%20and%20Android%20on%20React%20Native-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-permission-service)
 
 [![npm version](https://img.shields.io/npm/v/react-native-permission-service.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-permission-service)
