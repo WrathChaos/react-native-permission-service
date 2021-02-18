@@ -2,7 +2,7 @@
 
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-permission-service)
 
-[![React Native Permission Service](https://img.shields.io/badge/-Extremely%20easy%20to%20create%20a%20React%20Native%20Component%20Library%20with%20both%20Stateful%20and%20Functional%20Component%20Examples-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-permission-service)
+[![React Native Permission Service](https://img.shields.io/badge/-Easy%20to%20use%20permission%20service%20which%20is%20all%20handled%20by%20itself%20for%20both%20iOS%20and%20Android%20on%20React%20Native-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-permission-service)
 
 [![npm version](https://img.shields.io/npm/v/react-native-permission-service.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-permission-service)
 [![npm](https://img.shields.io/npm/dt/react-native-permission-service.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-permission-service)
