@@ -53,18 +53,18 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSCameraUsageDescription</key>
-	<string>This allows us to scan the barcode, show a photo of the license assets and tasks</string>
+<key>NSCameraUsageDescription</key>
+	<string>This allows us to make the camera usage</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This allows us to use your location to provide you certain features like create task, updating task and tracking your location.</string>
+	<string>This allows us to use your location to provide you certain features</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This allows us to use your location to provide you certain features like create task, updating task and tracking your location.</string>
+	<string>This allows us to use your location to provide you certain features</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This allows us to use your location to provide you certain features like create task, updating task and tracking your location.</string>
+	<string>This allows us to use your location to provide you certain features</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>This allows us to scan the barcode, show a photo of the license assets and tasks</string>
+	<string>This allows us to save or select photos from gallery</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This allows us to scan the barcode, show a photo of the license assets and tasks</string>
+	<string>This allows us to save or select photos from gallery</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
