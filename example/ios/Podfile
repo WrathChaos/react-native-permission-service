@@ -5,7 +5,6 @@ platform :ios, '10.0'
 
 target 'example' do
   config = use_native_modules!
-
   
   # RN Permissions
   permissions_path = '../node_modules/react-native-permissions/ios'
@@ -17,7 +16,6 @@ target 'example' do
 
   use_react_native!(:path => config["reactNativePath"])
   
-
   target 'exampleTests' do
     inherit! :complete
     # Pods for testing
